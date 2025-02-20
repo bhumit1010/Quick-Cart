@@ -1,0 +1,1340 @@
+##heading
+ <header class="py-4 shadow-sm">
+        <div class="container mx-auto items-center flex justify-between ">
+            <a href="#" class="text-3xl font-bold">Quickcart</a>
+            
+            
+
+            <div class="flex items-center space-x-4">
+                <div class="relative">
+                    <input type="text" placeholder="What are you looking for?"
+                        class="border rounded-md px-4 py-2 pr-10 focus:outline-none focus:ring-2 focus:ring-red-500 w-full md:w-auto">
+                    <i class="fas fa-search absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400"></i>
+                </div>
+
+                <a href="#" class="text-gray-700 hover:text-gray-900">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href="#" class="text-gray-700 hover:text-gray-900">
+                    <i class="fas fa-heart"></i>
+                </a>
+                
+            </div>
+        </div>
+          
+    </header>
+
+###footer
+
+  <footer class="py-10 bg-black text-white">
+   <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-5 gap-8">
+    <div>
+     <h2 class="text-xl font-bold mb-4">
+      Exclusive
+     </h2>
+     <p class="mb-2">
+      Subscribe
+     </p>
+     <p class="mb-4">
+      Get 10% off your first order
+     </p>
+     <form class="flex items-center border border-white rounded">
+      <input class="bg-black text-white p-2 flex-grow focus:outline-none" placeholder="Enter your email" type="email"/>
+      <button class="p-2" type="submit">
+       <i class="fas fa-arrow-right">
+       </i>
+      </button>
+     </form>
+    </div>
+    <div>
+     <h2 class="text-xl font-bold mb-4">
+      Support
+     </h2>
+     <p>
+      111 Bijoy sarani, Dhaka, DH 1515, Bangladesh.
+     </p>
+     <p>
+      exclusive@gmail.com
+     </p>
+     <p>
+      +88015-88888-9999
+     </p>
+    </div>
+    <div>
+     <h2 class="text-xl font-bold mb-4">
+      Account
+     </h2>
+     <ul>
+      <li class="mb-2">
+       <a class="hover:underline" href="#">
+        My Account
+       </a>
+      </li>
+      <li class="mb-2">
+       <a class="hover:underline" href="#">
+        Login / Register
+       </a>
+      </li>
+      <li class="mb-2">
+       <a class="hover:underline" href="#">
+        Cart
+       </a>
+      </li>
+      <li class="mb-2">
+       <a class="hover:underline" href="#">
+        Wishlist
+       </a>
+      </li>
+      <li class="mb-2">
+       <a class="hover:underline" href="#">
+        Shop
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div>
+     <h2 class="text-xl font-bold mb-4">
+      Quick Link
+     </h2>
+     <ul>
+      <li class="mb-2">
+       <a class="hover:underline" href="#">
+        Privacy Policy
+       </a>
+      </li>
+      <li class="mb-2">
+       <a class="hover:underline" href="#">
+        Terms Of Use
+       </a>
+      </li>
+      <li class="mb-2">
+       <a class="hover:underline" href="#">
+        FAQ
+       </a>
+      </li>
+      <li class="mb-2">
+       <a class="hover:underline" href="#">
+        Contact
+       </a>
+      </li>
+     </ul>
+    </div>
+   
+     <div class="flex space-x-4">
+      <a class="text-white" href="#">
+       <i class="fab fa-facebook-f">
+       </i>
+      </a>
+      <a class="text-white" href="#">
+       <i class="fab fa-twitter">
+       </i>
+      </a>
+      <a class="text-white" href="#">
+       <i class="fab fa-instagram">
+       </i>
+      </a>
+      <a class="text-white" href="#">
+       <i class="fab fa-linkedin-in">
+       </i>
+      </a>
+     </div>
+    </div>
+   </div>
+   <div class="text-center mt-10">
+    <p>
+     © Copyright Rimel 2022. All right reserved
+    </p>
+   </div>
+  </footer>
+
+###nav
+
+<header class="bg-white py-4 shadow-sm">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <div class="text-2xl font-bold">
+                Exclusive
+            </div>
+            <nav class="space-x-6 hidden md:flex">
+                <a class="text-gray-600 hover:text-black" href="#">
+                    Home
+                </a>
+                <a class="text-gray-600 hover:text-black" href="#">
+                    Contact
+                </a>
+                <a class="text-gray-600 hover:text-black" href="#">
+                    About
+                </a>
+                <a class="text-gray-600 hover:text-black font-bold" href="#">
+                    Sign Up
+                </a>
+            </nav>
+            <div class="relative hidden md:block">
+                <input class="border rounded-full py-2 px-4 pl-10" placeholder="What are you looking for?"
+                    type="text" />
+                <i class="fas fa-search absolute left-3 top-3 text-gray-400">
+                </i>
+            </div>
+        </div>
+    </header>
+
+
+
+###register
+
+<div class="flex items-center justify-center min-h-screen bg-blue-100">
+  <div class="flex flex-col md:flex-row bg-white shadow-lg rounded-lg overflow-hidden">
+   <div class="md:w-1/2 p-6 flex items-center justify-center bg-blue-100">
+    <img alt="A smartphone leaning against a shopping cart with two pink shopping bags in front of it" height="600" src="https://storage.googleapis.com/a1aa/image/wDIPde5d1gUh6j9uBctlqkH5_JrcaBNfKgq5wGGrlW0.jpg" width="600"/>
+   </div>
+   <div class="md:w-1/2 p-8">
+    <h2 class="text-2xl font-bold mb-4">
+     Create an account
+    </h2>
+    <p class="mb-6">
+     Enter your details below
+    </p>
+    <form>
+     <div class="mb-4">
+      <input class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Name" type="text"/>
+     </div>
+     <div class="mb-4">
+      <input class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Email or Phone Number" type="text"/>
+     </div>
+     <div class="mb-4">
+      <input class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Password" type="password"/>
+     </div>
+     <div class="mb-4">
+      <button class="w-full bg-red-500 text-white py-2 rounded-lg hover:bg-red-600" type="submit">
+       Create Account
+      </button>
+     </div>
+     <div class="mb-4">
+      <button class="w-full border border-gray-300 text-gray-700 py-2 rounded-lg flex items-center justify-center hover:bg-gray-100" type="button">
+       <i class="fab fa-google mr-2">
+       </i>
+       Sign up with Google
+      </button>
+     </div>
+    </form>
+    <p class="text-center text-gray-600">
+     Already have account?
+     <a class="text-blue-500" href="#">
+      Log in
+     </a>
+    </p>
+   </div>
+  </div>
+ </div>
+
+###login
+
+<div class="bg-blue-100 flex items-center justify-center min-h-screen">
+  <div class="bg-white flex flex-col md:flex-row shadow-lg rounded-lg overflow-hidden">
+   <div class="md:w-1/2 flex items-center justify-center p-6">
+    <img alt="A shopping cart with a large smartphone and two pink shopping bags" class="w-full h-auto" height="600" src="https://storage.googleapis.com/a1aa/image/5PMNVnZ5hp5O7lNnK4bAzVSOvkUrbeBAqSj00nzZsVE.jpg" width="600"/>
+   </div>
+   <div class="md:w-1/2 p-8">
+    <h2 class="text-2xl font-bold mb-4">
+     Log in to Exclusive
+    </h2>
+    <p class="mb-6">
+     Enter your details below
+    </p>
+    <form>
+     <div class="mb-4">
+      <input class="w-full p-3 border border-gray-300 rounded" placeholder="Email or Phone Number" type="text"/>
+     </div>
+     <div class="mb-4">
+      <input class="w-full p-3 border border-gray-300 rounded" placeholder="Password" type="password"/>
+     </div>
+     <div class="flex items-center justify-between mb-6">
+      <button class="bg-red-500 text-white px-4 py-2 rounded" type="submit">
+       Log In
+      </button>
+      <a class="text-red-500" href="#">
+       Forget Password?
+      </a>
+     </div>
+    </form>
+   </div>
+  </div>
+ </div>
+
+###wish list
+
+<div class="bg-white text-gray-900">
+  <div class="container mx-auto p-4">
+   <!-- Wishlist Section -->
+   <div class="flex justify-between items-center mb-4">
+    <h2 class="text-2xl font-semibold">
+     Wishlist (4)
+    </h2>
+    <button class="border border-gray-400 px-4 py-2 rounded">
+     Move All To Bag
+    </button>
+   </div>
+   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+    <!-- Item 1 -->
+    <div class="border rounded-lg p-4 relative">
+     <div class="absolute top-2 left-2 bg-red-500 text-white text-xs px-2 py-1 rounded">
+      -35%
+     </div>
+     <div class="absolute top-2 right-2">
+      <i class="fas fa-trash-alt text-gray-500">
+      </i>
+     </div>
+     <img alt="Gucci duffle bag" class="w-full h-40 object-cover mb-4" height="150" src="https://storage.googleapis.com/a1aa/image/odaoHeFYC-TOIg-87IYI2xju_t6U60NNfk7fXxLp8L4.jpg" width="200"/>
+     <button class="bg-black text-white w-full py-2 mb-2 flex items-center justify-center">
+      <i class="fas fa-shopping-cart mr-2">
+      </i>
+      Add To Cart
+     </button>
+     <h3 class="text-lg font-semibold">
+      Gucci duffle bag
+     </h3>
+     <div class="text-red-500 text-xl">
+      $960
+      <span class="line-through text-gray-500">
+       $1160
+      </span>
+     </div>
+    </div>
+    <!-- Item 2 -->
+    <div class="border rounded-lg p-4 relative">
+     <div class="absolute top-2 right-2">
+      <i class="fas fa-trash-alt text-gray-500">
+      </i>
+     </div>
+     <img alt="RGB liquid CPU Cooler" class="w-full h-40 object-cover mb-4" height="150" src="https://storage.googleapis.com/a1aa/image/oi57LOOxvgqfjmiKro1AMMozUObm-TA24C4IwEr6Cow.jpg" width="200"/>
+     <button class="bg-black text-white w-full py-2 mb-2 flex items-center justify-center">
+      <i class="fas fa-shopping-cart mr-2">
+      </i>
+      Add To Cart
+     </button>
+     <h3 class="text-lg font-semibold">
+      RGB liquid CPU Cooler
+     </h3>
+     <div class="text-red-500 text-xl">
+      $1960
+     </div>
+    </div>
+    <!-- Item 3 -->
+    <div class="border rounded-lg p-4 relative">
+     <div class="absolute top-2 right-2">
+      <i class="fas fa-trash-alt text-gray-500">
+      </i>
+     </div>
+     <img alt="GP11 Shooter USB Gamepad" class="w-full h-40 object-cover mb-4" height="150" src="https://storage.googleapis.com/a1aa/image/-Kb-UF0U6YAd-IxGAbxC6aiOLhET4yIXyFrz6VlMCYQ.jpg" width="200"/>
+     <button class="bg-black text-white w-full py-2 mb-2 flex items-center justify-center">
+      <i class="fas fa-shopping-cart mr-2">
+      </i>
+      Add To Cart
+     </button>
+     <h3 class="text-lg font-semibold">
+      GP11 Shooter USB Gamepad
+     </h3>
+     <div class="text-red-500 text-xl">
+      $550
+     </div>
+    </div>
+    <!-- Item 4 -->
+    <div class="border rounded-lg p-4 relative">
+     <div class="absolute top-2 right-2">
+      <i class="fas fa-trash-alt text-gray-500">
+      </i>
+     </div>
+     <img alt="Quilted Satin Jacket" class="w-full h-40 object-cover mb-4" height="150" src="https://storage.googleapis.com/a1aa/image/h5KIRNHxAOMS6z041YDpwIV5wxhEw8J2wzpXj3kNOX0.jpg" width="200"/>
+     <button class="bg-black text-white w-full py-2 mb-2 flex items-center justify-center">
+      <i class="fas fa-shopping-cart mr-2">
+      </i>
+      Add To Cart
+     </button>
+     <h3 class="text-lg font-semibold">
+      Quilted Satin Jacket
+     </h3>
+     <div class="text-red-500 text-xl">
+      $750
+     </div>
+    </div>
+   </div>
+   <!-- Just For You Section -->
+   <div class="flex justify-between items-center mb-4">
+    <div class="flex items-center">
+     <div class="bg-red-500 w-2 h-8 mr-2">
+     </div>
+     <h2 class="text-2xl font-semibold">
+      Just For You
+     </h2>
+    </div>
+    <button class="border border-gray-400 px-4 py-2 rounded">
+     See All
+    </button>
+   </div>
+   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+    <!-- Item 1 -->
+    <div class="border rounded-lg p-4 relative">
+     <div class="absolute top-2 left-2 bg-red-500 text-white text-xs px-2 py-1 rounded">
+      -35%
+     </div>
+     <div class="absolute top-2 right-2">
+      <i class="fas fa-eye text-gray-500">
+      </i>
+     </div>
+     <img alt="ASUS FHD Gaming Laptop" class="w-full h-40 object-cover mb-4" height="150" src="https://storage.googleapis.com/a1aa/image/YZPK63KMY57NwSqsOwHsSTbH3dipEhZey9eb6Q7iwl0.jpg" width="200"/>
+     <button class="bg-black text-white w-full py-2 mb-2 flex items-center justify-center">
+      <i class="fas fa-shopping-cart mr-2">
+      </i>
+      Add To Cart
+     </button>
+     <h3 class="text-lg font-semibold">
+      ASUS FHD Gaming Laptop
+     </h3>
+     <div class="text-red-500 text-xl">
+      $960
+      <span class="line-through text-gray-500">
+       $1160
+      </span>
+     </div>
+     <div class="flex items-center mt-2">
+      <div class="text-yellow-500">
+       <i class="fas fa-star">
+       </i>
+       <i class="fas fa-star">
+       </i>
+       <i class="fas fa-star">
+       </i>
+       <i class="fas fa-star">
+       </i>
+       <i class="fas fa-star-half-alt">
+       </i>
+      </div>
+      <span class="ml-2 text-gray-500">
+       (65)
+      </span>
+     </div>
+    </div>
+    <!-- Item 2 -->
+    <div class="border rounded-lg p-4 relative">
+     <div class="absolute top-2 right-2">
+      <i class="fas fa-eye text-gray-500">
+      </i>
+     </div>
+     <img alt="IPS LCD Gaming Monitor" class="w-full h-40 object-cover mb-4" height="150" src="https://storage.googleapis.com/a1aa/image/7djYxC_DjLR6oa-qhmqjIEfsZCQurhWh-6cKXIeKpX4.jpg" width="200"/>
+     <button class="bg-black text-white w-full py-2 mb-2 flex items-center justify-center">
+      <i class="fas fa-shopping-cart mr-2">
+      </i>
+      Add To Cart
+     </button>
+     <h3 class="text-lg font-semibold">
+      IPS LCD Gaming Monitor
+     </h3>
+     <div class="text-red-500 text-xl">
+      $1160
+     </div>
+     <div class="flex items-center mt-2">
+      <div class="text-yellow-500">
+       <i class="fas fa-star">
+       </i>
+       <i class="fas fa-star">
+       </i>
+       <i class="fas fa-star">
+       </i>
+       <i class="fas fa-star">
+       </i>
+       <i class="fas fa-star-half-alt">
+       </i>
+      </div>
+      <span class="ml-2 text-gray-500">
+       (65)
+      </span>
+     </div>
+    </div>
+    <!-- Item 3 -->
+    <div class="border rounded-lg p-4 relative">
+     <div class="absolute top-2 left-2 bg-green-500 text-white text-xs px-2 py-1 rounded">
+      NEW
+     </div>
+     <div class="absolute top-2 right-2">
+      <i class="fas fa-eye text-gray-500">
+      </i>
+     </div>
+     <img alt="HAVIT HV-G92 Gamepad" class="w-full h-40 object-cover mb-4" height="150" src="https://storage.googleapis.com/a1aa/image/fYVH5kCHWg2kQdr1BWJu_oOk3U9BbCeSpIoPDY0xTs0.jpg" width="200"/>
+     <button class="bg-black text-white w-full py-2 mb-2 flex items-center justify-center">
+      <i class="fas fa-shopping-cart mr-2">
+      </i>
+      Add To Cart
+     </button>
+     <h3 class="text-lg font-semibold">
+      HAVIT HV-G92 Gamepad
+     </h3>
+     <div class="text-red-500 text-xl">
+      $560
+     </div>
+     <div class="flex items-center mt-2">
+      <div class="text-yellow-500">
+       <i class="fas fa-star">
+       </i>
+       <i class="fas fa-star">
+       </i>
+       <i class="fas fa-star">
+       </i>
+       <i class="fas fa-star">
+       </i>
+       <i class="fas fa-star-half-alt">
+       </i>
+      </div>
+      <span class="ml-2 text-gray-500">
+       (65)
+      </span>
+     </div>
+    </div>
+    <!-- Item 4 -->
+    <div class="border rounded-lg p-4 relative">
+     <div class="absolute top-2 right-2">
+      <i class="fas fa-eye text-gray-500">
+      </i>
+     </div>
+     <img alt="AK-900 Wired Keyboard" class="w-full h-40 object-cover mb-4" height="150" src="https://storage.googleapis.com/a1aa/image/dlQxL0z8EthpBtOuJ1Ft91jByvXQfapf5G0XBMWBDOk.jpg" width="200"/>
+     <button class="bg-black text-white w-full py-2 mb-2 flex items-center justify-center">
+      <i class="fas fa-shopping-cart mr-2">
+      </i>
+      Add To Cart
+     </button>
+     <h3 class="text-lg font-semibold">
+      AK-900 Wired Keyboard
+     </h3>
+     <div class="text-red-500 text-xl">
+      $200
+     </div>
+     <div class="flex items-center mt-2">
+      <div class="text-yellow-500">
+       <i class="fas fa-star">
+       </i>
+       <i class="fas fa-star">
+       </i>
+       <i class="fas fa-star">
+       </i>
+       <i class="fas fa-star">
+       </i>
+       <i class="fas fa-star-half-alt">
+       </i>
+      </div>
+      <span class="ml-2 text-gray-500">
+       (65)
+      </span>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+
+###cart 
+
+<div class="bg-gray-100 p-6">
+  <div class="container mx-auto bg-white p-6 rounded-lg shadow-lg">
+   <table class="w-full mb-6">
+    <thead>
+     <tr class="text-left border-b">
+      <th class="py-2">
+       Product
+      </th>
+      <th class="py-2">
+       Price
+      </th>
+      <th class="py-2">
+       Quantity
+      </th>
+      <th class="py-2">
+       Subtotal
+      </th>
+     </tr>
+    </thead>
+    <tbody>
+     <tr class="border-b">
+      <td class="py-4 flex items-center">
+       <img alt="LCD Monitor" class="w-12 h-12 mr-4" height="50" src="https://storage.googleapis.com/a1aa/image/ZZ-RrEPf_Be_60bWfi0fQlOUfneHl59MjRkS_RoOkkU.jpg" width="50"/>
+       <span>
+        LCD Monitor
+       </span>
+      </td>
+      <td class="py-4">
+       $650
+      </td>
+      <td class="py-4">
+       <select class="border rounded p-2">
+        <option>
+         01
+        </option>
+        <option>
+         02
+        </option>
+        <option>
+         03
+        </option>
+       </select>
+      </td>
+      <td class="py-4">
+       $650
+      </td>
+     </tr>
+     <tr class="border-b">
+      <td class="py-4 flex items-center">
+       <img alt="H1 Gamepad" class="w-12 h-12 mr-4" height="50" src="https://storage.googleapis.com/a1aa/image/24e86EYSmLYb9f5ZIy2zOJ5jwmdF-LKIvax9W9D8u90.jpg" width="50"/>
+       <span>
+        H1 Gamepad
+       </span>
+      </td>
+      <td class="py-4">
+       $550
+      </td>
+      <td class="py-4">
+       <select class="border rounded p-2">
+        <option>
+         01
+        </option>
+        <option>
+         02
+        </option>
+        <option>
+         03
+        </option>
+       </select>
+      </td>
+      <td class="py-4">
+       $1100
+      </td>
+     </tr>
+    </tbody>
+   </table>
+   <div class="flex flex-col md:flex-row justify-between mb-6">
+    <button class="border border-black text-black py-2 px-4 rounded mb-4 md:mb-0">
+     Return To Shop
+    </button>
+    <button class="bg-black text-white py-2 px-4 rounded">
+     Update Cart
+    </button>
+   </div>
+   <div class="flex flex-col md:flex-row justify-between mb-6">
+    <div class="flex mb-4 md:mb-0">
+     <input class="border p-1 rounded-l" placeholder="Coupon Code" type="text"/>
+     <button class="bg-red-500 text-white py-2 px-4 rounded-r">
+      Apply Coupon
+     </button>
+    </div>
+    <div class="border p-6 rounded-lg shadow-lg w-full md:w-1/3">
+     <h2 class="text-lg font-bold mb-4">
+      Cart Total
+     </h2>
+     <div class="flex justify-between mb-2">
+      <span>
+       Subtotal:
+      </span>
+      <span>
+       $1750
+      </span>
+     </div>
+     <div class="flex justify-between mb-2">
+      <span>
+       Shipping:
+      </span>
+      <span>
+       Free
+      </span>
+     </div>
+     <div class="flex justify-between mb-4">
+      <span>
+       Total:
+      </span>
+      <span>
+       $1750
+      </span>
+     </div>
+     <button class="bg-red-500 text-white py-2 px-4 rounded w-full">
+      Proceed to checkout
+     </button>
+    </div>
+   </div>
+  </div>
+ </div>
+###billing
+
+<div class="bg-white text-gray-900">
+  <div class="container mx-auto p-4">
+   <div class="flex flex-col lg:flex-row">
+    <!-- Billing Details Form -->
+    <div class="w-full lg:w-1/2 p-4">
+     <h2 class="text-2xl font-bold mb-4">
+      Billing Details
+     </h2>
+     <form>
+      <div class="mb-4">
+       <label class="block text-sm font-medium mb-1" for="first-name">
+        First Name
+        <span class="text-red-500">
+         *
+        </span>
+       </label>
+       <input class="w-full p-2 border border-gray-300 rounded" id="first-name" required="" type="text"/>
+      </div>
+      <div class="mb-4">
+       <label class="block text-sm font-medium mb-1" for="company-name">
+        Company Name
+       </label>
+       <input class="w-full p-2 border border-gray-300 rounded" id="company-name" type="text"/>
+      </div>
+      <div class="mb-4">
+       <label class="block text-sm font-medium mb-1" for="street-address">
+        Street Address
+        <span class="text-red-500">
+         *
+        </span>
+       </label>
+       <input class="w-full p-2 border border-gray-300 rounded" id="street-address" required="" type="text"/>
+      </div>
+      <div class="mb-4">
+       <label class="block text-sm font-medium mb-1" for="apartment">
+        Apartment, floor, etc. (optional)
+       </label>
+       <input class="w-full p-2 border border-gray-300 rounded" id="apartment" type="text"/>
+      </div>
+      <div class="mb-4">
+       <label class="block text-sm font-medium mb-1" for="city">
+        Town/City
+        <span class="text-red-500">
+         *
+        </span>
+       </label>
+       <input class="w-full p-2 border border-gray-300 rounded" id="city" required="" type="text"/>
+      </div>
+      <div class="mb-4">
+       <label class="block text-sm font-medium mb-1" for="phone">
+        Phone Number
+        <span class="text-red-500">
+         *
+        </span>
+       </label>
+       <input class="w-full p-2 border border-gray-300 rounded" id="phone" required="" type="text"/>
+      </div>
+      <div class="mb-4">
+       <label class="block text-sm font-medium mb-1" for="email">
+        Email Address
+        <span class="text-red-500">
+         *
+        </span>
+       </label>
+       <input class="w-full p-2 border border-gray-300 rounded" id="email" required="" type="email"/>
+      </div>
+      <div class="mb-4 flex items-center">
+       <input class="mr-2" id="save-info" type="checkbox"/>
+       <label class="text-sm" for="save-info">
+        Save this information for faster check-out next time
+       </label>
+      </div>
+     </form>
+    </div>
+    <!-- Order Summary -->
+    <div class="w-full lg:w-1/2 p-4">
+     <div class="border border-gray-300 p-4 rounded">
+      <div class="flex items-center justify-between mb-4">
+       <img alt="LCD Monitor" class="w-12 h-12" height="50" src="https://storage.googleapis.com/a1aa/image/H4opndFhLcktgszUdrgk3k4OVxSsIcwGImCMR4LEaxI.jpg" width="50"/>
+       <span>
+        LCD Monitor
+       </span>
+       <span>
+        $650
+       </span>
+      </div>
+      <div class="flex items-center justify-between mb-4">
+       <img alt="H1 Gamepad" class="w-12 h-12" height="50" src="https://storage.googleapis.com/a1aa/image/Sdudvg-1vh3PCD76E-6kkUh94pFBdLOJo2DMtDYR0sI.jpg" width="50"/>
+       <span>
+        H1 Gamepad
+       </span>
+       <span>
+        $1100
+       </span>
+      </div>
+      <div class="border-t border-gray-300 my-4">
+      </div>
+      <div class="flex justify-between mb-2">
+       <span>
+        Subtotal:
+       </span>
+       <span>
+        $1750
+       </span>
+      </div>
+      <div class="flex justify-between mb-2">
+       <span>
+        Shipping:
+       </span>
+       <span>
+        Free
+       </span>
+      </div>
+      <div class="flex justify-between font-bold mb-4">
+       <span>
+        Total:
+       </span>
+       <span>
+        $1750
+       </span>
+      </div>
+      <div class="flex items-center mb-4">
+       <input class="mr-2" id="bank" name="payment-method" type="radio"/>
+       <label class="mr-4" for="bank">
+        Bank
+       </label>
+       <img alt="Payment Methods" class="w-24" height="20" src="https://storage.googleapis.com/a1aa/image/eJOlyBiQUYLatbHuX4ikqHYCget61o3gK6xG0Ntd1Uc.jpg" width="100"/>
+      </div>
+      <div class="flex items-center mb-4">
+       <input checked="" class="mr-2" id="cod" name="payment-method" type="radio"/>
+       <label for="cod">
+        Cash on delivery
+       </label>
+      </div>
+      <div class="flex mb-4">
+       <input class="w-full p-2 border border-gray-300 rounded-l" placeholder="Coupon Code" type="text"/>
+       <button class="bg-red-500 text-white p-2 rounded-r">
+        Apply Coupon
+       </button>
+      </div>
+      <button class="bg-red-500 text-white w-full p-2 rounded">
+       Place Order
+      </button>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+
+###profile
+
+<div class="bg-gray-100">
+    <div class="flex flex-col lg:flex-row min-h-screen">
+        <!-- Sidebar -->
+        <div class="w-full lg:w-1/4 bg-white p-6">
+            <h2 class="font-bold mb-4">Manage My Account</h2>
+            <ul class="mb-8">
+                <li class="mb-2 text-red-500">My Profile</li>
+                <li class="mb-2 text-gray-500">Address Book</li>
+                <li class="mb-2 text-gray-500">My Payment Options</li>
+            </ul>
+            <h2 class="font-bold mb-4">My Orders</h2>
+            <ul class="mb-8">
+                <li class="mb-2 text-gray-500">My Returns</li>
+                <li class="mb-2 text-gray-500">My Cancellations</li>
+            </ul>
+            <h2 class="font-bold mb-4">My WishList</h2>
+        </div>
+        <!-- Main Content -->
+        <div class="w-full lg:w-3/4 bg-white p-6 lg:p-10">
+            <h1 class="text-2xl font-bold text-red-500 mb-6">Edit Your Profile</h1>
+            <form>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                    <div>
+                        <label class="block text-gray-700 mb-2">First Name</label>
+                        <input type="text" value="Md" class="w-full p-2 border border-gray-300 rounded bg-gray-100" readonly>
+                    </div>
+                    <div>
+                        <label class="block text-gray-700 mb-2">Last Name</label>
+                        <input type="text" value="Rimel" class="w-full p-2 border border-gray-300 rounded bg-gray-100" readonly>
+                    </div>
+                    <div>
+                        <label class="block text-gray-700 mb-2">Email</label>
+                        <input type="email" value="rimel1111@gmail.com" class="w-full p-2 border border-gray-300 rounded bg-gray-100" readonly>
+                    </div>
+                    <div>
+                        <label class="block text-gray-700 mb-2">Address</label>
+                        <input type="text" value="Kingston, 5236, United State" class="w-full p-2 border border-gray-300 rounded bg-gray-100" readonly>
+                    </div>
+                </div>
+                <div class="mb-6">
+                    <label class="block text-gray-700 mb-2">Password Changes</label>
+                    <input type="password" placeholder="Current Password" class="w-full p-2 mb-4 border border-gray-300 rounded bg-gray-100">
+                    <input type="password" placeholder="New Password" class="w-full p-2 mb-4 border border-gray-300 rounded bg-gray-100">
+                    <input type="password" placeholder="Confirm New Password" class="w-full p-2 border border-gray-300 rounded bg-gray-100">
+                </div>
+                <div class="flex justify-end">
+                    <button type="button" class="text-gray-500 mr-4">Cancel</button>
+                    <button type="submit" class="bg-red-500 text-white px-4 py-2 rounded">Save Changes</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+    
+###about
+     <div class="bg-white text-gray-800">
+  <div class="container mx-auto px-4 py-8">
+   <div class="flex flex-col md:flex-row items-center">
+    <div class="md:w-1/2">
+     <h1 class="text-4xl font-bold mb-4">
+      Our Story
+     </h1>
+     <p class="mb-4">
+      Launced in 2015, Exclusive is South Asia's premier online shopping marketplace with an active presense in Bangladesh. Supported by wide range of tailored marketing, data and service solutions, Exclusive has 10,500 sallers and 300 brands and serves 3 millions customers across the region.
+     </p>
+     <p>
+      Exclusive has more than 1 Million products to offer, growing at a very fast. Exclusive offers a diverse assortment in categories ranging from consumer.
+     </p>
+    </div>
+    <div class="md:w-1/2 mt-8 md:mt-0">
+     <img alt="Two women shopping with bags, looking at a phone" class="rounded-lg" height="400" src="https://storage.googleapis.com/a1aa/image/VKNATcTIGPjbELh309yWzDcqQ-XTj6mauNrm-xC3bbA.jpg" width="600"/>
+    </div>
+   </div>
+   <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mt-12">
+    <div class="flex flex-col items-center p-4 border rounded-lg">
+     <i class="fas fa-store text-4xl mb-2">
+     </i>
+     <p class="text-2xl font-bold">
+      10.5k
+     </p>
+     <p>
+      Sallers active our site
+     </p>
+    </div>
+    <div class="flex flex-col items-center p-4 border rounded-lg bg-red-500 text-white">
+     <i class="fas fa-dollar-sign text-4xl mb-2">
+     </i>
+     <p class="text-2xl font-bold">
+      33k
+     </p>
+     <p>
+      Monphtly Produact Sale
+     </p>
+    </div>
+    <div class="flex flex-col items-center p-4 border rounded-lg">
+     <i class="fas fa-gift text-4xl mb-2">
+     </i>
+     <p class="text-2xl font-bold">
+      45.5k
+     </p>
+     <p>
+      Customer active in our site
+     </p>
+    </div>
+    <div class="flex flex-col items-center p-4 border rounded-lg">
+     <i class="fas fa-sack-dollar text-4xl mb-2">
+     </i>
+     <p class="text-2xl font-bold">
+      25k
+     </p>
+     <p>
+      Anual gross sale in our site
+     </p>
+    </div>
+   </div>
+   <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-12">
+    <div class="flex flex-col items-center">
+     <img alt="Portrait of Tom Cruise" class="rounded-full mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/kVqBA1LNBGDgEFbGuI_2S-i1jj7w-VzfNAr1x6mT9TE.jpg" width="200"/>
+     <p class="text-xl font-bold">
+      Tom Cruise
+     </p>
+     <p>
+      Founder &amp; Chairman
+     </p>
+     <div class="flex space-x-2 mt-2">
+      <i class="fab fa-twitter">
+      </i>
+      <i class="fab fa-instagram">
+      </i>
+      <i class="fab fa-linkedin">
+      </i>
+     </div>
+    </div>
+    <div class="flex flex-col items-center">
+     <img alt="Portrait of Emma Watson" class="rounded-full mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/WPXwmcPZ7HzoK2CqqfRsVc4wNlz57AFzKYVVYFSKoKE.jpg" width="200"/>
+     <p class="text-xl font-bold">
+      Emma Watson
+     </p>
+     <p>
+      Managing Director
+     </p>
+     <div class="flex space-x-2 mt-2">
+      <i class="fab fa-twitter">
+      </i>
+      <i class="fab fa-instagram">
+      </i>
+      <i class="fab fa-linkedin">
+      </i>
+     </div>
+    </div>
+    <div class="flex flex-col items-center">
+     <img alt="Portrait of Will Smith" class="rounded-full mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/3f81WR_qvTO8QYEm5zC2fyE8_3xxollyFeJQZTZzUbc.jpg" width="200"/>
+     <p class="text-xl font-bold">
+      Will Smith
+     </p>
+     <p>
+      Product Designer
+     </p>
+     <div class="flex space-x-2 mt-2">
+      <i class="fab fa-twitter">
+      </i>
+      <i class="fab fa-instagram">
+      </i>
+      <i class="fab fa-linkedin">
+      </i>
+     </div>
+    </div>
+   </div>
+   <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-12">
+    <div class="flex flex-col items-center">
+     <i class="fas fa-truck text-4xl mb-2">
+     </i>
+     <p class="text-xl font-bold">
+      FREE AND FAST DELIVERY
+     </p>
+     <p>
+      Free delivery for all orders over $140
+     </p>
+    </div>
+    <div class="flex flex-col items-center">
+     <i class="fas fa-headset text-4xl mb-2">
+     </i>
+     <p class="text-xl font-bold">
+      24/7 CUSTOMER SERVICE
+     </p>
+     <p>
+      Friendly 24/7 customer support
+     </p>
+    </div>
+    <div class="flex flex-col items-center">
+     <i class="fas fa-shield-alt text-4xl mb-2">
+     </i>
+     <p class="text-xl font-bold">
+      MONEY BACK GUARANTEE
+     </p>
+     <p>
+      We return money within 30 days
+     </p>
+    </div>
+   </div>
+  </div>
+ </div>
+    ###contect
+
+    <div class="bg-gray-100 flex justify-center items-center min-h-screen">
+    <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6">
+        <div class="flex-1">
+            <div class="flex items-center mb-6">
+                <div class="bg-red-500 text-white p-4 rounded-full">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <div class="ml-4">
+                    <h2 class="text-xl font-semibold">Call To Us</h2>
+                    <p class="text-gray-600">We are available 24/7, 7 days a week.</p>
+                    <p class="text-gray-600">Phone: +8801611112222</p>
+                </div>
+            </div>
+            <hr class="my-6">
+            <div class="flex items-center">
+                <div class="bg-red-500 text-white p-4 rounded-full">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="ml-4">
+                    <h2 class="text-xl font-semibold">Write To US</h2>
+                    <p class="text-gray-600">Fill out our form and we will contact you within 24 hours.</p>
+                    <p class="text-gray-600">Emails: customer@exclusive.com</p>
+                    <p class="text-gray-600">Emails: support@exclusive.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="flex-1">
+            <form class="space-y-4">
+                <div class="flex space-x-4">
+                    <input type="text" placeholder="Your Name *" class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500">
+                    <input type="email" placeholder="Your Email *" class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500">
+                    <input type="text" placeholder="Your Phone *" class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500">
+                </div>
+                <textarea placeholder="Your Massage" class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 h-32"></textarea>
+                <button type="submit" class="bg-red-500 text-white px-6 py-3 rounded-lg">Send Massage</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+    ###product 
+    <div class="bg-gray-50 font-roboto">
+  <div class="container mx-auto p-4">
+   <div class="flex flex-col lg:flex-row">
+    <!-- Left Section -->
+    <div class="flex flex-col items-center lg:w-1/2">
+     <div class="flex flex-col items-center space-y-4">
+      <img alt="Main image of the gamepad" class="w-full h-auto" height="400" src="https://storage.googleapis.com/a1aa/image/dtPilund5bSBHLTJ71LAYxR9PmEzyLCRtI0h4Ro4nzA.jpg" width="600"/>
+      <div class="flex space-x-4">
+       <img alt="Side view of the gamepad" class="w-20 h-20" height="100" src="https://storage.googleapis.com/a1aa/image/tX-_jxdSQRfRWbyo0HTSn49HGUz2FIDlPwOU8YP0YR8.jpg" width="100"/>
+       <img alt="Front view of the gamepad" class="w-20 h-20" height="100" src="https://storage.googleapis.com/a1aa/image/6kMD2eSgAf91jMqQIgtCFDz5Ke9a_TW8o5vwxpUO4iM.jpg" width="100"/>
+       <img alt="Back view of the gamepad" class="w-20 h-20" height="100" src="https://storage.googleapis.com/a1aa/image/4f8rWYAW_-pK7V5AircD-PhR_XQlKMj_e8qKKOxNswk.jpg" width="100"/>
+       <img alt="Angled view of the gamepad" class="w-20 h-20" height="100" src="https://storage.googleapis.com/a1aa/image/A9s6V0EBEk0TZs8fJcsR0-kh8ueCnRSJVnU2q_LsG3w.jpg" width="100"/>
+       <img alt="Another view of the gamepad" class="w-20 h-20" height="100" src="https://storage.googleapis.com/a1aa/image/s23_0XPJYHyreDImJhm906T8Wqnu2J2MWD7czXmkP80.jpg" width="100"/>
+      </div>
+     </div>
+    </div>
+    <!-- Right Section -->
+    <div class="lg:w-1/2 lg:pl-8">
+     <h1 class="text-2xl font-bold">
+      Havic HV G-92 Gamepad
+     </h1>
+     <div class="flex items-center space-x-2 mt-2">
+      <div class="flex items-center">
+       <i class="fas fa-star text-yellow-500">
+       </i>
+       <i class="fas fa-star text-yellow-500">
+       </i>
+       <i class="fas fa-star text-yellow-500">
+       </i>
+       <i class="fas fa-star text-yellow-500">
+       </i>
+       <i class="fas fa-star-half-alt text-yellow-500">
+       </i>
+      </div>
+      <span class="text-gray-500">
+       (150 Reviews)
+      </span>
+      <span class="text-green-500">
+       In Stock
+      </span>
+     </div>
+     <div class="text-3xl font-bold mt-4">
+      $192.00
+     </div>
+     <p class="mt-4 text-gray-600">
+      PlayStation 5 Controller Skin High quality vinyl with air channel adhesive for easy bubble free install &amp; mess free removal Pressure sensitive.
+     </p>
+     <div class="mt-4">
+      <span class="font-bold">
+       Colours:
+      </span>
+      <div class="flex items-center space-x-2 mt-2">
+       <div class="w-6 h-6 bg-red-500 rounded-full">
+       </div>
+       <div class="w-6 h-6 bg-gray-500 rounded-full">
+       </div>
+      </div>
+     </div>
+     <div class="mt-4">
+      <span class="font-bold">
+       Size:
+      </span>
+      <div class="flex items-center space-x-2 mt-2">
+       <button class="px-2 py-1 border border-gray-300 rounded">
+        XS
+       </button>
+       <button class="px-2 py-1 border border-gray-300 rounded">
+        S
+       </button>
+       <button class="px-2 py-1 border border-gray-300 rounded bg-red-500 text-white">
+        M
+       </button>
+       <button class="px-2 py-1 border border-gray-300 rounded">
+        L
+       </button>
+       <button class="px-2 py-1 border border-gray-300 rounded">
+        XL
+       </button>
+      </div>
+     </div>
+     <div class="mt-4 flex items-center space-x-4">
+      <div class="flex items-center border border-gray-300 rounded">
+       <button class="px-2 py-1">
+        -
+       </button>
+       <input class="w-12 text-center border-none" type="text" value="2"/>
+       <button class="px-2 py-1">
+        +
+       </button>
+      </div>
+      <button class="px-4 py-2 bg-red-500 text-white rounded">
+       Buy Now
+      </button>
+     </div>
+     <div class="mt-4 border-t border-gray-300 pt-4">
+      <div class="flex items-center space-x-2">
+       <i class="fas fa-truck">
+       </i>
+       <div>
+        <span class="font-bold">
+         Free Delivery
+        </span>
+        <p class="text-gray-500">
+         Enter your postal code for Delivery Availability
+        </p>
+       </div>
+      </div>
+      <div class="flex items-center space-x-2 mt-4">
+       <i class="fas fa-undo">
+       </i>
+       <div>
+        <span class="font-bold">
+         Return Delivery
+        </span>
+        <p class="text-gray-500">
+         Free 30 Days Delivery Returns.
+         <a class="text-blue-500" href="#">
+          Details
+         </a>
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <!-- Related Items -->
+   <div class="mt-8">
+    <h2 class="text-xl font-bold text-red-500">
+     Related Item
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-4">
+     <div class="bg-white p-4 rounded shadow">
+      <img alt="Red gamepad" class="w-full h-auto" height="200" src="https://storage.googleapis.com/a1aa/image/M8i9fQYSE8QsNjgzXKhvfEOUDsHlcQwtJZpnB5IXzLU.jpg" width="200"/>
+      <div class="mt-2">
+       <h3 class="text-lg font-bold">
+        HAVIT HV-G92 Gamepad
+       </h3>
+       <div class="flex items-center space-x-2 mt-2">
+        <span class="text-red-500 font-bold">
+         -40%
+        </span>
+        <span class="text-gray-500 line-through">
+         $160
+        </span>
+        <span class="text-black font-bold">
+         $120
+        </span>
+       </div>
+       <div class="flex items-center mt-2">
+        <i class="fas fa-star text-yellow-500">
+        </i>
+        <i class="fas fa-star text-yellow-500">
+        </i>
+        <i class="fas fa-star text-yellow-500">
+        </i>
+        <i class="fas fa-star text-yellow-500">
+        </i>
+        <i class="fas fa-star-half-alt text-yellow-500">
+        </i>
+        <span class="text-gray-500 ml-2">
+         (88)
+        </span>
+       </div>
+       <button class="mt-2 px-4 py-2 bg-black text-white rounded">
+        Add To Cart
+       </button>
+      </div>
+     </div>
+     <div class="bg-white p-4 rounded shadow">
+      <img alt="Wired keyboard" class="w-full h-auto" height="200" src="https://storage.googleapis.com/a1aa/image/e_m-FE9-Ss5ckQZK3yv7_7kgvx4TH5Eg65QHWb1mzSQ.jpg" width="200"/>
+      <div class="mt-2">
+       <h3 class="text-lg font-bold">
+        AK-900 Wired Keyboard
+       </h3>
+       <div class="flex items-center space-x-2 mt-2">
+        <span class="text-red-500 font-bold">
+         -35%
+        </span>
+        <span class="text-gray-500 line-through">
+         $160
+        </span>
+        <span class="text-black font-bold">
+         $960
+        </span>
+       </div>
+       <div class="flex items-center mt-2">
+        <i class="fas fa-star text-yellow-500">
+        </i>
+        <i class="fas fa-star text-yellow-500">
+        </i>
+        <i class="fas fa-star text-yellow-500">
+        </i>
+        <i class="fas fa-star text-yellow-500">
+        </i>
+        <i class="fas fa-star-half-alt text-yellow-500">
+        </i>
+        <span class="text-gray-500 ml-2">
+         (75)
+        </span>
+       </div>
+       <button class="mt-2 px-4 py-2 bg-black text-white rounded">
+        Add To Cart
+       </button>
+      </div>
+     </div>
+     <div class="bg-white p-4 rounded shadow">
+      <img alt="Gaming monitor" class="w-full h-auto" height="200" src="https://storage.googleapis.com/a1aa/image/EzK1RNGqhFWx16ZCXhm1ymkpO1ZUBwtPVknwUkNrtZY.jpg" width="200"/>
+      <div class="mt-2">
+       <h3 class="text-lg font-bold">
+        IPS LCD Gaming Monitor
+       </h3>
+       <div class="flex items-center space-x-2 mt-2">
+        <span class="text-red-500 font-bold">
+         -30%
+        </span>
+        <span class="text-gray-500 line-through">
+         $400
+        </span>
+        <span class="text-black font-bold">
+         $370
+        </span>
+       </div>
+       <div class="flex items-center mt-2">
+        <i class="fas fa-star text-yellow-500">
+        </i>
+        <i class="fas fa-star text-yellow-500">
+        </i>
+        <i class="fas fa-star text-yellow-500">
+        </i>
+        <i class="fas fa-star text-yellow-500">
+        </i>
+        <i class="fas fa-star-half-alt text-yellow-500">
+        </i>
+        <span class="text-gray-500 ml-2">
+         (99)
+        </span>
+       </div>
+       <button class="mt-2 px-4 py-2 bg-black text-white rounded">
+        Add To Cart
+       </button>
+      </div>
+     </div>
+     <div class="bg-white p-4 rounded shadow">
+      <img alt="Liquid CPU cooler" class="w-full h-auto" height="200" src="https://storage.googleapis.com/a1aa/image/SLE9wYvrX4X9hfLTA3w_ytXI7psvuaLLW3i3ywOMyq4.jpg" width="200"/>
+      <div class="mt-2">
+       <h3 class="text-lg font-bold">
+        RGB Liquid CPU Cooler
+       </h3>
+       <div class="flex items-center space-x-2 mt-2">
+        <span class="text-red-500 font-bold">
+         -30%
+        </span>
+        <span class="text-gray-500 line-through">
+         $170
+        </span>
+        <span class="text-black font-bold">
+         $160
+        </span>
+       </div>
+       <div class="flex items-center mt-2">
+        <i class="fas fa-star text-yellow-500">
+        </i>
+        <i class="fas fa-star text-yellow-500">
+        </i>
+        <i class="fas fa-star text-yellow-500">
+        </i>
+        <i class="fas fa-star text-yellow-500">
+        </i>
+        <i class="fas fa-star-half-alt text-yellow-500">
+        </i>
+        <span class="text-gray-500 ml-2">
+         (65)
+        </span>
+       </div>
+       <button class="mt-2 px-4 py-2 bg-black text-white rounded">
+        Add To Cart
+       </button>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
