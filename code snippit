@@ -26,126 +26,126 @@
 
 ###footer
 
-  <footer class="py-10 bg-black text-white">
-   <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-5 gap-8">
-    <div>
-     <h2 class="text-xl font-bold mb-4">
-      Exclusive
-     </h2>
-     <p class="mb-2">
-      Subscribe
-     </p>
-     <p class="mb-4">
-      Get 10% off your first order
-     </p>
-     <form class="flex items-center border border-white rounded">
-      <input class="bg-black text-white p-2 flex-grow focus:outline-none" placeholder="Enter your email" type="email"/>
-      <button class="p-2" type="submit">
-       <i class="fas fa-arrow-right">
-       </i>
-      </button>
-     </form>
-    </div>
-    <div>
-     <h2 class="text-xl font-bold mb-4">
-      Support
-     </h2>
-     <p>
-      111 Bijoy sarani, Dhaka, DH 1515, Bangladesh.
-     </p>
-     <p>
-      exclusive@gmail.com
-     </p>
-     <p>
-      +88015-88888-9999
-     </p>
-    </div>
-    <div>
-     <h2 class="text-xl font-bold mb-4">
-      Account
-     </h2>
-     <ul>
-      <li class="mb-2">
-       <a class="hover:underline" href="#">
-        My Account
+<footer class="py-10 bg-black text-white">
+    <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-5 gap-8">
+     <div>
+      <h2 class="text-xl font-bold mb-4">
+       Exclusive
+      </h2>
+      <p class="mb-2">
+       Subscribe
+      </p>
+      <p class="mb-4">
+       Get 10% off your first order
+      </p>
+      <form class="flex items-center border border-white rounded">
+       <input class="bg-black text-white w-screen max-w-[300px] md:max-w-24 lg:max-w-[300px] z-10 p-2 flex-grow focus:outline-none" placeholder="Enter your email" type="email"/>
+       <button class="p-2 " type="submit">
+        <i class="fas fa-arrow-right">
+        </i>
+       </button>
+      </form>
+     </div>
+     <div>
+      <h2 class="text-xl font-bold mb-4">
+       Support
+      </h2>
+      <p>
+       111 Bijoy sarani, Dhaka, DH 1515, Bangladesh.
+      </p>
+      <p>
+       exclusive@gmail.com
+      </p>
+      <p>
+       +88015-88888-9999
+      </p>
+     </div>
+     <div>
+      <h2 class="text-xl font-bold mb-4">
+       Account
+      </h2>
+      <ul>
+       <li class="mb-2">
+        <a class="hover:underline" href="#">
+         My Account
+        </a>
+       </li>
+       <li class="mb-2">
+        <a class="hover:underline" href="#">
+         Login / Register
+        </a>
+       </li>
+       <li class="mb-2">
+        <a class="hover:underline" href="#">
+         Cart
+        </a>
+       </li>
+       <li class="mb-2">
+        <a class="hover:underline" href="#">
+         Wishlist
+        </a>
+       </li>
+       <li class="mb-2">
+        <a class="hover:underline" href="#">
+         Shop
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div>
+      <h2 class="text-xl font-bold mb-4">
+       Quick Link
+      </h2>
+      <ul>
+       <li class="mb-2">
+        <a class="hover:underline" href="#">
+         Privacy Policy
+        </a>
+       </li>
+       <li class="mb-2">
+        <a class="hover:underline" href="#">
+         Terms Of Use
+        </a>
+       </li>
+       <li class="mb-2">
+        <a class="hover:underline" href="#">
+         FAQ
+        </a>
+       </li>
+       <li class="mb-2">
+        <a class="hover:underline" href="#">
+         Contact
+        </a>
+       </li>
+      </ul>
+     </div>
+    
+      <div class="flex space-x-4">
+       <a class="text-white" href="#">
+        <i class="fab fa-facebook-f">
+        </i>
        </a>
-      </li>
-      <li class="mb-2">
-       <a class="hover:underline" href="#">
-        Login / Register
+       <a class="text-white" href="#">
+        <i class="fab fa-twitter">
+        </i>
        </a>
-      </li>
-      <li class="mb-2">
-       <a class="hover:underline" href="#">
-        Cart
+       <a class="text-white" href="#">
+        <i class="fab fa-instagram">
+        </i>
        </a>
-      </li>
-      <li class="mb-2">
-       <a class="hover:underline" href="#">
-        Wishlist
+       <a class="text-white" href="#">
+        <i class="fab fa-linkedin-in">
+        </i>
        </a>
-      </li>
-      <li class="mb-2">
-       <a class="hover:underline" href="#">
-        Shop
-       </a>
-      </li>
-     </ul>
-    </div>
-    <div>
-     <h2 class="text-xl font-bold mb-4">
-      Quick Link
-     </h2>
-     <ul>
-      <li class="mb-2">
-       <a class="hover:underline" href="#">
-        Privacy Policy
-       </a>
-      </li>
-      <li class="mb-2">
-       <a class="hover:underline" href="#">
-        Terms Of Use
-       </a>
-      </li>
-      <li class="mb-2">
-       <a class="hover:underline" href="#">
-        FAQ
-       </a>
-      </li>
-      <li class="mb-2">
-       <a class="hover:underline" href="#">
-        Contact
-       </a>
-      </li>
-     </ul>
-    </div>
-   
-     <div class="flex space-x-4">
-      <a class="text-white" href="#">
-       <i class="fab fa-facebook-f">
-       </i>
-      </a>
-      <a class="text-white" href="#">
-       <i class="fab fa-twitter">
-       </i>
-      </a>
-      <a class="text-white" href="#">
-       <i class="fab fa-instagram">
-       </i>
-      </a>
-      <a class="text-white" href="#">
-       <i class="fab fa-linkedin-in">
-       </i>
-      </a>
+      </div>
      </div>
     </div>
-   </div>
-   <div class="text-center mt-10">
-    <p>
-     © Copyright Rimel 2022. All right reserved
-    </p>
-   </div>
-  </footer>
+    <div class="text-center mt-10">
+     <p>
+      © Copyright Rimel 2022. All right reserved
+     </p>
+    </div>
+   </footer>
 
 ###nav
 
